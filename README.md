@@ -3,7 +3,7 @@
 * [DESCRIPTION](#DESCRIPTION)
 * [EXAMPLE Install Terraform](#EXAMPLE Install Terraform)
 * [NOTES](#NOTES)
-* [EXAMPLE: List all OS and both 32-bit/64-bit versions](#EXAMPLE: List all OS and both 32-bit/64-bit versions)
+* [EXAMPLE List All](#EXAMPLE List All)
 
 ## SYNOPSIS
 	Download and install latest version of Terraform.exe & add it to the Windows path.
@@ -14,6 +14,7 @@
     
     Default: 		windows_amd64
 ## EXAMPLE Install Terraform
+	# Install Terraform
 	. .\install_terraform.ps1
 	# Example 1: Install 64-bit version i.e. default
 	GetTerraform
@@ -25,7 +26,8 @@
 	This script only works on Windows, but if you need it to run on other operating systems, feel free to do a pull-request and add your changes.
     
     
-## EXAMPLE: List all OS and both 32-bit/64-bit versions
+## EXAMPLE List All
+	# List all OS and both 32-bit/64-bit versions
 	# List all OS versions. 
 	.\install_terraform.ps1
 	.\ListTerraformInstalls
