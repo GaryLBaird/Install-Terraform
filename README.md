@@ -1,9 +1,9 @@
 ## Table of contents
 * [SYNOPSIS](#SYNOPSIS)
 * [DESCRIPTION](#DESCRIPTION)
-* [EXAMPLE_Install_Terraform](#EXAMPLE Install Terraform)
+* [EXAMPLE_Install_Terraform](#EXAMPLE_Install_Terraform)
 * [NOTES](#NOTES)
-* [EXAMPLE_List_All](#EXAMPLE List All)
+* [EXAMPLE_List_All](#EXAMPLE_List_All)
 
 ## SYNOPSIS
 	Download and install latest version of Terraform.exe & add it to the Windows path.
