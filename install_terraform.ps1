@@ -139,13 +139,13 @@ Function GetTerraform([string]$Version='windows_amd64'){
 		and then adds it to the path. It will replace the existing one.
 	.EXAMPLE Install 64-bit version of Terraform
 		Default: 		windows_amd64
-		PS> ListTerraformInstalls
+		PS> GetTerraform
 		or
-		PS> ListTerraformInstalls -Version 'windows_amd64'
+		PS> GetTerraform -Version 'windows_amd64'
 	.EXAMPLE Install windows_386
 		Default: 		windows_amd64
 		Install 32-bit: windows_386
-		PS> ListTerraformInstalls -Version "windows_386"
+		PS> GetTerraform -Version "windows_386"
 	#>
 	$Source=(GetLatest $Version);
 	$Destination=(Join-Path -Path $Env:ProgramFiles -Childpath "Terraform");
