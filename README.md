@@ -13,7 +13,7 @@
  	then adds 'Program Files\Terraform' to the system path if it's not already there. It will replace the existing zip and Terraform.exe file if it exists.
     
     Default: 		windows_amd64
-## EXAMPLE Install Terraform
+## EXAMPLE_Install_Terraform
 	# Install Terraform
 	. .\install_terraform.ps1
 	# Example 1: Install 64-bit version i.e. default
@@ -26,7 +26,7 @@
 	This script only works on Windows, but if you need it to run on other operating systems, feel free to do a pull-request and add your changes.
     
     
-## EXAMPLE List All
+## EXAMPLE_List_All
 	# List all OS and both 32-bit/64-bit versions
 	# List all OS versions. 
 	.\install_terraform.ps1
